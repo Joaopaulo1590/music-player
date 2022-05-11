@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="shortcut icon" href="./imagens/icons8-música-64.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        
+   
+</head>
+<body>
+    <div class="container">
+    <img src="./imagens/wind.gif"  alt="dance">
+    <div class="descricao">
+        <h2>Piauí</h2>
+        <i>Lil Whind (Feat.rapadura)</i>
+    </div>
+
+    <div class="duracao">
+        <div class="barra">
+            <progress value="0" max="1"></progress>
+            <div class="ponto"></div>
+        </div>
+
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">4:51</p>
+        </div>        
+    </div>
+
+    <div class="player">
+        <i class="fa-solid fa-backward-step setas anterior"></i>
+        <i class="fa-solid fa-circle-play botao-play"></i>
+        <i class="fa-solid fa-circle-pause botao-pause"></i>
+        <i class="fa-solid fa-forward-step setas proxima"></i>
+        
+    </div>
+
+
+    <audio src="./musicas/piaui.mp3"></audio>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/f4e7b8bca9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
