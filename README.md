@@ -4,4 +4,4 @@
 <img src = "imagens/ex1.png">
 
 <h2>Video do player</h2>
-
+<img src = "imagens/video1.mp4">
